@@ -16,7 +16,9 @@ Libraries Used:
 
 This project uses the LiquidCrystal_I2C library to control the LCD display via I2C communication.
 
-Installing LiquidCrystal_I2C Library
+
+
+Installing LiquidCrystal_I2C Library:
 
 1. Open Arduino IDE.
 
@@ -25,6 +27,8 @@ Installing LiquidCrystal_I2C Library
 3. Search for LiquidCrystal_I2C.
 
 4. Install the appropriate library.
+
+
 
 How to Use :
 
@@ -36,14 +40,10 @@ How to Use :
 
 4. Observe the LCD display for moisture levels.
 
-Notes
+Notes :
 
 The I2C address may need adjustment depending on the LCD module.
 
 The delay in readSensor() ensures accurate readings.
 
 Modify the dryThreshold and wetThreshold based on your soil conditions.
-
-License
-
-This project is open-source. Feel free to modify and distribute it.
